@@ -6,6 +6,7 @@
 #include <OpenLoco/Platform/Platform.h>
 #include <OpenLoco/Utility/String.hpp>
 #include <fmt/chrono.h>
+#include <iostream>
 
 namespace OpenLoco::Diagnostics::Logging
 {
@@ -29,6 +30,7 @@ namespace OpenLoco::Diagnostics::Logging
     static void cleanupLogFiles(const fs::path& logsFolderPath)
     {
         // Get all log files in the folder
+        Logging::error("Cleaning up log files in {}", logsFolderPath.string());
         std::vector<fs::path> logFiles;
         try
         {
@@ -95,6 +97,8 @@ namespace OpenLoco::Diagnostics::Logging
 
     void initialize(std::string_view logLevels)
     {
+        std::cerr << "Error opening directory browse window";
+
         const auto logsFolder = getLogsFolderPath();
         cleanupLogFiles(logsFolder);
 

@@ -112,6 +112,9 @@ namespace OpenLoco
         return val + (align - (val % align));
     }
 
+    static_assert(sizeof(std::size_t) == 4);
+    static_assert(sizeof(std::size_t) == 4);
+
     void MemoryStream::write(const void* buffer, size_t len)
     {
         const auto spaceLeft = _capacity - _offset;
@@ -120,7 +123,7 @@ namespace OpenLoco
         if (len > spaceLeft)
         {
             constexpr auto kGrowthFactor = 2.0f;
-            constexpr auto kPageSize = 0x1000U;
+            constexpr std::size_t kPageSize = 0x1000U;
 
             const auto newCapacity = _capacity + len;
             const auto finalCapacity = alignTo(static_cast<std::size_t>(newCapacity * kGrowthFactor), kPageSize);

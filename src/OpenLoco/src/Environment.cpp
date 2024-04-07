@@ -39,6 +39,7 @@ namespace OpenLoco::Environment
         else
         {
             auto g1Path = path / getSubPath(PathId::g1);
+            std::cout << "Checking for " << g1Path << std::endl;
             bool g1Exists = fs::exists(g1Path);
 #ifndef _WIN32
             if (!g1Exists)
@@ -57,6 +58,7 @@ namespace OpenLoco::Environment
             "C:/Program Files (x86)/Atari/Locomotion",
             "C:/GOG Games/Chris Sawyer's Locomotion",
             "C:/GOG Games/Locomotion",
+            "/opt/locomotion",
         };
 
         Logging::info("Searching for Locomotion install path...");

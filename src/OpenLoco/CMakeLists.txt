@@ -149,7 +149,7 @@ set(OLOCO_SOURCES
     "${CMAKE_CURRENT_SOURCE_DIR}/src/Input/Keyboard.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/Input/MouseInput.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/Input/Shortcuts.cpp"
-    "${CMAKE_CURRENT_SOURCE_DIR}/src/Interop/Hooks.cpp"
+#    "${CMAKE_CURRENT_SOURCE_DIR}/src/Interop/Hooks.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/Intro.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/LastGameOptionManager.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/Localisation/Conversion.cpp"
@@ -657,18 +657,33 @@ else ()
             PRIVATE_FILES
                 ${OLOCO_SOURCES}
         )
-        add_dependencies(OpenLoco linkable_sections)
+        add_dependencies(OpenLoco segfiles)
         # set_source_files_properties has to be set in the CMakeLists that uses them
-        set_source_files_properties(
-            ${LOCO_SECTIONS}
-            PROPERTIES
-            EXTERNAL_OBJECT true
-            GENERATED true
-        )
-        target_sources(OpenLoco
-            PRIVATE
-                ${LOCO_SECTIONS})
-        set_target_properties(OpenLoco PROPERTIES LINK_FLAGS ${LOCO_SEGMENT_LINKER_FLAGS})
+#        set_source_files_properties(
+#            ${LOCO_SECTIONS}
+#            PROPERTIES
+#            EXTERNAL_OBJECT true
+#            GENERATED true
+#        )
+#        target_sources(OpenLoco
+#            PRIVATE
+#                ${LOCO_SECTIONS})
+#        set_target_properties(OpenLoco PROPERTIES LINK_FLAGS ${LOCO_SEGMENT_LINKER_FLAGS})
+
+        set_target_properties(OpenLoco PROPERTIES SUFFIX ".html")
+
+        # create a list with esflags
+        set(ES_FLAGS)
+        list(APPEND ES_FLAGS -lidbfs.js)
+        list(APPEND ES_FLAGS "-sGLOBAL_BASE=1024mb -sALLOW_MEMORY_GROWTH=1")
+        list(APPEND ES_FLAGS "-sSAFE_HEAP_LOG")
+        list(APPEND ES_FLAGS "-sENVIRONMENT=web")
+list(APPEND ES_FLAGS "--preload-file ${OLOCO_DATA}@/oloco_data")
+        list(APPEND ES_FLAGS "--preload-file /Users/marijn/Desktop/locomotion_gog@/opt/locomotion")
+        list(APPEND ES_FLAGS "--preload-file ${CMAKE_CURRENT_SOURCE_DIR}/../../data@/data")
+        list(JOIN ES_FLAGS " " ES_FLAGS)
+
+        set_target_properties(OpenLoco PROPERTIES LINK_FLAGS ${ES_FLAGS})
 
         if (TARGET SDL2::SDL2main)
             target_link_libraries(OpenLoco SDL2::SDL2main)
@@ -680,14 +695,14 @@ target_link_libraries(OpenLoco
     Core
     Diagnostics
     Platform
-    Interop
+#    Interop
     Utility
     Math
     Engine
     ${SDL2_LIB}
     Threads::Threads
     yaml-cpp
-    ${PNG_LIBRARY}
+    ${PNG_LIBRARIES}
     ${OPENAL_LIBRARIES})
 
 if (WIN32)
@@ -796,7 +811,7 @@ if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
         Core
         Diagnostics
         Platform
-        Interop
+#        Interop
         Utility
         Math
         Engine
@@ -807,3 +822,7 @@ else ()
     # Dummy target to ease invocation
     add_custom_target(OpenLoco-headers-check)
 endif ()
+
+if(EMSCRIPTEN)
+#    set_target_properties(OpenLoco PROPERTIES LINK_FLAGS "-sNO_DISABLE_EXCEPTION_CATCHING -sGLOBAL_BASE=1")
+endif()

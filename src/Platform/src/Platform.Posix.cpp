@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
+#include <print>
 #include <pwd.h>
 #include <time.h>
 
@@ -39,7 +40,7 @@ namespace OpenLoco::Platform
         return result == nullptr ? std::string() : result;
     }
 
-#if !(defined(__APPLE__) && defined(__MACH__))
+#if !(defined(__APPLE__) && defined(__MACH__)) && !defined(__EMSCRIPTEN__)
     static fs::path getHomeDirectory()
     {
         auto pw = getpwuid(getuid());
@@ -72,6 +73,14 @@ namespace OpenLoco::Platform
     }
 #endif
 
+#if defined(__EMSCRIPTEN__)
+    fs::path getUserDirectory()
+        {
+                return fs::path("/OpenLoco");
+        }
+#endif
+
+
 #if !(defined(__APPLE__) && defined(__MACH__))
     fs::path getCurrentExecutablePath()
     {
@@ -93,6 +102,8 @@ namespace OpenLoco::Platform
         // There is no way to get the path name of a running executable.
         // If you are not using the port or package, you may have to change this line!
         strlcpy(exePath, "/usr/local/bin/", sizeof(exePath));
+#elif defined(__EMSCRIPTEN__)
+
 #else
 #error "Platform does not support full path exe retrieval"
 #endif // __linux__

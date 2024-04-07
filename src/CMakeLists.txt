@@ -1,5 +1,5 @@
 add_subdirectory(Core)
-add_subdirectory(Interop)
+add_subdirectory(Interop-Compat)
 add_subdirectory(Math)
 add_subdirectory(Engine)
 add_subdirectory(OpenLoco)

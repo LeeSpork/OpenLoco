@@ -79,6 +79,7 @@
 #include <OpenLoco/Platform/Crash.h>
 #include <OpenLoco/Platform/Platform.h>
 #include <OpenLoco/Utility/String.hpp>
+#include <emscripten/emscripten.h>
 
 #pragma warning(disable : 4611) // interaction between '_setjmp' and C++ object destruction is non - portable
 
@@ -154,9 +155,9 @@ namespace OpenLoco
         call(0x004062D1); // calls getTime then sub_4062E0 unused Dead code
     }
 
-    static void sub_406417(void* ptr)
+    static void sub_406417(void* ptr [[maybe_unused]])
     {
-        ((void (*)(void*))0x00406417)(ptr);
+        //        ((void (*)(void*))0x00406417)(ptr);
     }
 
     static void sub_40567E()
@@ -164,6 +165,7 @@ namespace OpenLoco
         call(0x0040567E);
     }
 
+    [[maybe_unused]]
     static void sub_4058F5()
     {
         call(0x004058F5);
@@ -174,17 +176,19 @@ namespace OpenLoco
         call(0x004062E0); // getTime unused Dead code
     }
 
-    static bool sub_4034FC(int32_t& a, int32_t& b)
+    static bool sub_4034FC(int32_t& a [[maybe_unused]], int32_t& b [[maybe_unused]])
     {
-        auto result = ((int32_t(*)(int32_t&, int32_t&))(0x004034FC))(a, b);
-        return result != 0;
+        //        auto result = ((int32_t(*)(int32_t&, int32_t&))(0x004034FC))(a, b);
+        //        return result != 0;
+        return true;
     }
 
     // 0x00407FFD
-    static bool isAlreadyRunning(const char* mutexName)
+    static bool isAlreadyRunning(const char* mutexName [[maybe_unused]])
     {
-        auto result = ((int32_t(*)(const char*))(0x00407FFD))(mutexName);
-        return result != 0;
+        //        auto result = ((int32_t(*)(const char*))(0x00407FFD))(mutexName);
+        //        return result != 0;
+        return false;
     }
 
     // 0x004BE621
@@ -1062,6 +1066,18 @@ namespace OpenLoco
             fixedUpdate();
     }
 
+    static void emloop() {
+        auto end = Ui::processMessages();
+if(!end) {
+    emscripten_cancel_main_loop();
+    return;
+}
+
+sub_4062E0();
+update();
+
+    }
+
     // 0x00406386
     static void run()
     {
@@ -1089,6 +1105,9 @@ namespace OpenLoco
         // This can be removed when initialise is moved out of tick().
         tick();
 
+#ifdef __EMSCRIPTEN__
+        emscripten_set_main_loop(emloop, 0, 1);
+#else
         while (Ui::processMessages())
         {
             if (addr<0x005252AC, uint32_t>() != 0)
@@ -1098,6 +1117,7 @@ namespace OpenLoco
             sub_4062E0();
             update();
         }
+#endif
         sub_40567E();
 
 #ifdef _WIN32

@@ -115,7 +115,9 @@ if (UNIX)
             DEPENDS ${OLOCO_EXE}
     )
     add_custom_target(segfiles DEPENDS ${OLOCO_TEXT} ${OLOCO_DATA})
-    if (APPLE)
+    if (EMSCRIPTEN)
+
+    elseif (APPLE)
         set(LOCO_SEGMENT_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -sectcreate loco_text __text \"${OLOCO_TEXT}\" -sectcreate loco_data __data ${OLOCO_DATA} -segaddr loco_data 0x4d7000 -segprot loco_data rwx rwx -segaddr loco_text 0x401000 -segprot loco_text rwx rwx -segaddr __TEXT 0x2000000 -read_only_relocs suppress")
     else ()
         # For Linux we have to use objcopy to wrap regular binaries into a linkable

@@ -43,7 +43,11 @@ else ()
 endif()
 
 find_package(PNG REQUIRED)
-if (NOT APPLE AND NOT MSVC)
+find_package(ZLIB REQUIRED)
+
+if(EMSCRIPTEN)
+    add_library(OPENAL_LIBRARIES INTERFACE)
+elseif (NOT APPLE AND NOT MSVC)
     find_package(OpenAL CONFIG)
     if (OpenAL_FOUND)
         set(OPENAL_LIBRARIES OpenAL::OpenAL)
