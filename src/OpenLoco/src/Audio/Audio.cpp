@@ -184,16 +184,6 @@ namespace OpenLoco::Audio
     {
         disposeDSound();
         initialiseDSound();
-
-        // Resume title music if it should be playing
-        if (isTitleMode())
-        {
-            auto& cfg = Config::get();
-            if (cfg.audio.playTitleMusic)
-            {
-                Audio::playMusic(Environment::PathId::css5, Config::get().old.volume, true);
-            }
-        }
     }
 
     static size_t getDeviceIndex(const std::string_view& deviceName)
