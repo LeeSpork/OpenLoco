@@ -2410,3 +2410,6 @@ strings:
   2355: "{COLOUR WINDOW_2}Riverbank width:"
   2356: "{COLOUR WINDOW_2}Meander rate:"
   2357: "OpenLoco"
+  2358: "{NEWLINE}{COLOUR WINDOW_2} Is Helicopter: {COLOUR BLACK}{STRINGID}"
+  2359: "Yes"
+  2360: "No"

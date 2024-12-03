@@ -1322,6 +1322,13 @@ namespace OpenLoco::Ui::Windows::BuildVehicle
             args.push(cost);
             buffer = StringManager::formatString(buffer, StringIds::stats_cost, args);
         }
+        
+        {
+            auto isHelicopter = vehicleObj->hasFlags(VehicleObjectFlags::isHelicopter) ? StringIds::yes : StringIds::no;
+            FormatArguments args{};
+            args.push(isHelicopter);
+            buffer = StringManager::formatString(buffer, StringIds::stats_isHelicopter, args);
+        }
 
         {
             auto runningCost = Economy::getInflationAdjustedCost(vehicleObj->runCostFactor, vehicleObj->runCostIndex, 10);
