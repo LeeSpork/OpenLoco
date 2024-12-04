@@ -1995,6 +1995,7 @@ namespace OpenLoco::StringIds
     constexpr StringId stats_isHelicopter = 2358;
     constexpr StringId yes = 2359;
     constexpr StringId no = 2360;
+    constexpr StringId vehicle_status_5E = 2361;
 
     constexpr StringId temporary_object_load_str_0 = 8192;
     constexpr StringId temporary_object_load_str_1 = 8193;

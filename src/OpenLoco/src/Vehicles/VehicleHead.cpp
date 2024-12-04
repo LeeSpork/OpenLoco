@@ -707,37 +707,9 @@ namespace OpenLoco::Vehicles
     {
         VehicleStatus vehStatus{};
 
-        if (hasVehicleFlags(VehicleFlags::commandStop) || (hasVehicleFlags(VehicleFlags::manualControl) && manualPower <= -20))
-        {
-            vehStatus.status1 = StringIds::vehicle_status_stopping;
-        }
-        else if (sizeOfOrderTable == 1)
-        {
-            vehStatus.status1 = StringIds::vehicle_status_travelling;
-        }
-        else
-        {
-            bool stopFound = false;
-            auto orders = getCurrentOrders();
-            for (auto& order : orders)
-            {
-                auto* stopOrder = order.as<OrderStopAt>();
-                if (stopOrder == nullptr)
-                {
-                    continue;
-                }
-
-                stopFound = true;
-                auto* station = StationManager::get(stopOrder->getStation());
-                vehStatus.status1 = StringIds::vehicle_status_heading_for;
-                vehStatus.status1Args = (enumValue(station->town) << 16) | station->name;
-                break;
-            }
-            if (!stopFound)
-            {
-                vehStatus.status1 = StringIds::vehicle_status_travelling;
-            }
-        }
+        Vehicle train(head);
+        vehStatus.status1 = StringIds::vehicle_status_5E;
+        vehStatus.status1Args = (uint32_t)train.cars.firstCar.front->asVehicleBogie()->var_5E;
         getSecondStatus(vehStatus);
         return vehStatus;
     }

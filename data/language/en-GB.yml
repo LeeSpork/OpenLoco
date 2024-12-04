@@ -2413,3 +2413,4 @@ strings:
   2358: "{NEWLINE}{COLOUR WINDOW_2} Is Helicopter: {COLOUR BLACK}{STRINGID}"
   2359: "Yes"
   2360: "No"
+  2361: "var_5E: {INT32}{POP16}"

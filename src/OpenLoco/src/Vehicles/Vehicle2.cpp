@@ -50,10 +50,8 @@ namespace OpenLoco::Vehicles
             return false;
         }
 
-        bool isheli = vehObject->hasFlags(VehicleObjectFlags::isHelicopter);
-
-        // This code seems dead as no aircraft reach this code so its never a helicopter
-        if (vehObject->power == 0 || !isheli)
+        // All non-aircraft vehicles are steam engines if and only if they are helicopters, at least for the vanilla objects.
+        if (vehObject->power == 0 || !vehObject->hasFlags(VehicleObjectFlags::isHelicopter))
         {
             return false;
         }
