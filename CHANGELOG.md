@@ -1,7 +1,19 @@
-24.10+ (???)
+24.12 (2024-12-27)
+------------------------------------------------------------------------
+- Fix: [#2667] Music stops working when only one track is selected or available.
+- Fix: [#2761] Potential crash when the Locomotion game folder is changed.
+- Fix: [#2776, #2777] Bridge support image ordering incorrect and invisible bridge platforms over buildings.
+- Fix: [#2778] News has celebration sound for player company going bankrupt.
+- Fix: [#2785] Unique names for industries incorrectly generated.
+- Fix: [#2791] Station cargo image incorrect for high quantities of cargo.
+- Fix: [#2806] Vehicle objects with zeroed base sound frequency are inaudible.
+
+24.11 (2024-11-28)
 ------------------------------------------------------------------------
 - Feature: [#2697] Add initial OpenGraphics custom assets.
 - Change: [#2708] "Show Options Window" keyboard shortcut now works in the title screen.
+- Change: [#2758] Screenshots are now saved in a dedicated `screenshots` subfolder in OpenLoco's user config folder.
+- Change: [#2770] The Object Selection window no longer shows full paths for filenames.
 - Fix: [#2676] Cargo labels are misaligned in vehicle window.
 - Fix: [#2678] Incorrect vehicle draw order and general vehicle clipping.
 - Fix: [#2690] Inability to remove certain track pieces.
@@ -16,6 +28,8 @@
 - Fix: [#2725] Currency preference selection shows invalid data.
 - Fix: [#2727] Bankruptcy warnings do not appear.
 - Fix: [#2735] Map generator does not set the season on trees.
+- Fix: [#2742] Sound effects playing when title screen is paused.
+- Fix: [#2743] Title music not playing while scenario is loading.
 
 24.10 (2024-10-20)
 ------------------------------------------------------------------------

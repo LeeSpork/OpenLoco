@@ -49,6 +49,7 @@
 #include "Ui/Widgets/FrameWidget.h"
 #include "Ui/Widgets/ImageButtonWidget.h"
 #include "Ui/Widgets/PanelWidget.h"
+#include "Ui/Widgets/TextBoxWidget.h"
 #include "Ui/Window.h"
 #include "Ui/WindowManager.h"
 #include "World/CompanyManager.h"
@@ -263,7 +264,7 @@ namespace OpenLoco::Ui::Windows::ObjectSelectionWindow
 
         // Filter options
         makeDropdownWidgets({ 492, 20 }, { 100, 12 }, WindowColour::primary, StringIds::empty),
-        makeWidget({ 4, 45 }, { 246, 14 }, WidgetType::textbox, WindowColour::secondary),
+        Widgets::TextBox({ 4, 45 }, { 246, 14 }, WindowColour::secondary),
         Widgets::Button({ 254, 45 }, { 38, 14 }, WindowColour::secondary, StringIds::clearInput),
 
         // Secondary tabs
@@ -902,9 +903,11 @@ namespace OpenLoco::Ui::Windows::ObjectSelectionWindow
 
         auto tr = Gfx::TextRenderer(drawingCtx);
 
+        // Draw object filename
         {
+            auto filename = fs::u8path(indexEntry._filepath).filename().u8string();
             auto buffer = const_cast<char*>(StringManager::getString(StringIds::buffer_1250));
-            strncpy(buffer, indexEntry._filepath.c_str(), indexEntry._filepath.length() + 1);
+            strncpy(buffer, filename.c_str(), filename.length() + 1);
 
             FormatArguments args{};
             args.push<StringId>(StringIds::buffer_1250);

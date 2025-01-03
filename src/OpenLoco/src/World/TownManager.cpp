@@ -180,7 +180,7 @@ namespace OpenLoco::TownManager
                 continue;
             }
 
-            StringId newNameId = StringManager::userStringAllocate(buffer, 0);
+            StringId newNameId = StringManager::userStringAllocate(buffer, true);
             if (newNameId == StringIds::empty)
             {
                 continue;
@@ -348,7 +348,7 @@ namespace OpenLoco::TownManager
                     continue;
                 }
 
-                if (building->has_40())
+                if (building->isMiscBuilding())
                 {
                     continue;
                 }
