@@ -166,13 +166,25 @@ namespace OpenLoco::Input
         _keyQueueWriteIndex = nextWriteIndex;
     }
 
-    void enqueueText(const char* text)
+    // text: UTF-8 encoded null-terminated char array
+    void enqueueText(const char text[])
     {
-        if (text != nullptr && text[0] != '\0')
+        if (text == nullptr || text[0] == '\0')
         {
-            uint32_t index = _keyQueueLastWrite;
-            _keyQueue[index].charCode = text[0];
+            return;
         }
+
+        // Convert text[] to uint32_t
+        // Assumption: text[] contains a single character
+        uint32_t charCode = 0;
+        for (int i = 0; text[i] != '\0'; i++)
+        {
+            charCode <<= 8;
+            charCode += (uint8_t)text[i];
+        }
+
+        uint32_t index = _keyQueueLastWrite;
+        _keyQueue[index].charCode = charCode;
     }
 
     // 0x00407028
