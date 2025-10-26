@@ -2,6 +2,7 @@
 #include "GameCommands/GameCommands.h"
 #include "Localisation/StringIds.h"
 #include "Objects/CompetitorObject.h"
+#include "Objects/ObjectIndex.h"
 #include "Objects/ObjectManager.h"
 #include "Ui/WindowManager.h"
 #include "World/CompanyManager.h"
@@ -104,6 +105,14 @@ namespace OpenLoco::GameCommands
             auto oldName = targetCompany->name;
             targetCompany->name = competitor->name;
             StringManager::emptyUserString(oldName);
+        }
+
+        // Fix for #2914
+        const auto objectSelectionWindow = Ui::WindowManager::find(Ui::WindowType::objectSelection);
+        if (objectSelectionWindow != nullptr)
+        {
+            ObjectManager::updateInUseCompetitorObjects();
+            objectSelectionWindow->invalidate();
         }
 
         Gfx::invalidateScreen();

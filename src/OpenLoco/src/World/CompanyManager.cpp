@@ -836,6 +836,14 @@ namespace OpenLoco::CompanyManager
         {
             createCompany(competitorId, false);
         }
+
+        // Fix for #3179
+        const auto objectSelectionWindow = WindowManager::find(WindowType::objectSelection);
+        if (objectSelectionWindow != nullptr)
+        {
+            ObjectManager::updateInUseCompetitorObjects();
+            objectSelectionWindow->invalidate();
+        }
     }
 
     // 0x0042F23C

@@ -1280,4 +1280,30 @@ namespace OpenLoco::ObjectManager
 
         return std::nullopt;
     }
+
+    void updateInUseCompetitorObjects()
+    {
+        const auto objects = getAvailableObjects(ObjectType::competitor);
+        for (auto& [index, object] : objects)
+        {
+            // First, set them all to not in use
+            _50D144[index] &= ~SelectedObjectsFlags::inUse;
+
+            // Iterate over every company in play
+            for (auto& company : CompanyManager::companies())
+            {
+                if (object._header == ObjectManager::getHeader({ ObjectType::competitor, company.competitorId }))
+                {
+                    // I'm in use!
+                    if ((_50D144[index] & SelectedObjectsFlags::selected) == SelectedObjectsFlags::none)
+                    {
+                        ObjectSelectionMeta& selectionMetaData = _objectSelectionMeta;
+                        selectionMetaData.numSelectedObjects[enumValue(ObjectType::competitor)]++;
+                    }
+                    _50D144[index] |= (SelectedObjectsFlags::selected | SelectedObjectsFlags::inUse);
+                    break;
+                }
+            }
+        }
+    }
 }
