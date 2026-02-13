@@ -75,10 +75,12 @@ namespace OpenLoco
         getGameState().dayCounter = progression;
     }
 
+    // Progresses the date. Returns true when the day changes.
+    // The average day lasts ~96.09 updates, or ~2.4 seconds.
     bool updateDayCounter()
     {
         bool result = false;
-        constexpr uint16_t kIncrement = 682; // ~17s
+        constexpr uint16_t kIncrement = 682;
 
         // Check if counter is going to wrap
         if (getGameState().dayCounter + kIncrement > std::numeric_limits<uint16_t>::max())
