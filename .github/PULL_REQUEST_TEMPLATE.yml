@@ -1,0 +1,31 @@
+- type: textarea
+  attributes:
+    label: Description of changes
+    description: Briefly describe what was changed in the PR.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Rationale behind changes
+    description: Why were these changes made? What problem does it solve, or what does it improve?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Suggested testing steps
+    description: Any particular areas of the game we need to look at? You can include example save games bellow if needed.
+  validations:
+    required: true
+- type: upload
+  attributes:
+    label: Example save file
+    description: Include example save games if needed (zip them and drag and drop into the area bellow).
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Did you use AI to help find, test, or implement this issue or feature?
+    description: Please answer honestly. If you answer yes, please provide a brief explanation as to how you used it.
+    placeholder: No / Yes, ...
+  validations:
+    required: true
