@@ -1,0 +1,69 @@
+name: Bug report
+description: File a bug report.
+type: bug
+body:
+
+- type: input
+  attributes:
+    label: Platform
+    description: ""
+    placeholder: "Windows 11"
+  validations:
+    required: false
+
+- type: input
+  attributes:
+    label: Affected version(s)
+    description: What version or commit were you playing when you found the bug?
+    placeholder: e.g. v26.08 or f08479f
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Description
+    description: Describe the bug.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: Detail how to reproduce this bug. If needed, you can upload a saved game bellow.
+    placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+  validations:
+    required: false
+
+- type: upload
+  attributes:
+    label: Save file
+    description: Include save game or landscape file if needed (zip it and drag and drop into the area bellow).
+  validations:
+    required: false
+    accept: ".zip"
+
+- type: upload
+  attributes:
+    label: Screenshots
+    description: If applicable, add screenshots or videos to help explain the problem.
+  validations:
+    required: false
+    accept: ".png,.jpg,.jpeg,.gif,.mp4,.mov,.webm"
+
+- type: textarea
+  attributes:
+    label: Expected behaviour
+    description: A clear and concise description of what you expected to happen.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Additional context
+    description: Add any other context about the problem here.
+  validations:
+    required: false
