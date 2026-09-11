@@ -246,20 +246,19 @@ namespace OpenLoco::EditorController
     }
 
     // 0x0043EE25
-    static bool validateStep1()
+    static StringId validateNumberOfTowns()
     {
         if (!Game::hasFlags(GameStateFlags::tileManagerLoaded))
         {
-            return true;
+            return StringIds::null;
         }
 
         if (TownManager::towns().size() >= Limits::kMinTowns)
         {
-            return true;
+            return StringIds::null;
         }
 
-        GameCommands::setErrorText(StringIds::at_least_one_town_be_built);
-        return false;
+        return StringIds::at_least_one_town_be_built;
     }
 
     // 0x0043D0FA
@@ -370,10 +369,11 @@ namespace OpenLoco::EditorController
             }
             case Step::landscapeEditor:
             {
-                if (!validateStep1())
+                auto errorMessage = validateNumberOfTowns();
+                if (errorMessage != StringIds::null)
                 {
-                    Windows::Error::open(StringIds::cant_advance_to_next_editor_stage, GameCommands::getErrorText());
-                    break;
+                    Windows::Error::open(StringIds::cant_advance_to_next_editor_stage, errorMessage);
+                    return;
                 }
 
                 const bool landscapeNotGenerated = (options.scenarioFlags & Scenario::ScenarioFlags::landscapeGenerationDone) == Scenario::ScenarioFlags::none;
