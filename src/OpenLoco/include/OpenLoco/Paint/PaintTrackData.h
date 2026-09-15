@@ -2145,7 +2145,7 @@ namespace OpenLoco::Paint
         kLeftCurveVerySmallInner0,
     };
 
-    constexpr auto kTurnaroundSpriteOffset = 452;
+    constexpr auto kTurnaroundSpriteOffset = 484; // TODO check this and its users
 
     constexpr TrackPaintPiece kTurnaround0 = { // Adapted from PaintRoadStyle1Data.h; PaintRoadCommonData.h
         std::array<std::array<uint32_t, 3>, 4>{
