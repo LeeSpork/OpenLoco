@@ -1881,7 +1881,7 @@ namespace OpenLoco::Paint
         kLeftCurveSmallSteepSlopeDown3,
     };
 
-    constexpr std::array<std::span<const TrackPaintPiece>, 26> kTrackPaintParts = {
+    constexpr std::array<std::span<const TrackPaintPiece>, 44> kTrackPaintParts = {
         kStraightTPP,
         kDiagonalTPP,
         kLeftCurveVerySmallTPP,
@@ -1908,6 +1908,26 @@ namespace OpenLoco::Paint
         kRightCurveSmallSteepSlopeUpTPP,
         kLeftCurveSmallSteepSlopeDownTPP,
         kRightCurveSmallSteepSlopeDownTPP,
+
+        // EVIL
+        kStraightTPP,// kStraightLeftSideTPP, // 26 : left side straight
+        kStraightTPP,// kStraightRightSideTPP, // 27 : right side straight
+        kStraightTPP,// 28 UNKNOWN
+        kStraightTPP,// 29 UNKNOWN
+        kStraightTPP,// 30 UNKNOWN
+        kStraightTPP,// 31 UNKNOWN
+        kStraightTPP,// 32 UNKNOWN
+        kStraightTPP,// 33 : 'S' Bend Right (from left track) // 'S' Bend Left (from right track) // One of these is 33 I messed up
+        kStraightTPP,// 34 : left side straight steep slope up
+        kStraightTPP,// 35 UNKNOWN
+        kStraightTPP,// 36 : left side straight steep slope down
+        kStraightTPP,// 37 UNKNOWN
+        kStraightTPP,// 38 : 'S' Bend to left side of dual track (from single track)
+        kStraightTPP,// 39 UNKNOWN
+        kStraightTPP,// 40 : Appears to be left side to single
+        kStraightTPP,// 41 : 'S' Bend to single track (from right side)
+        kStraightTPP,// 42 UNKNOWN
+        kStraightTPP,// 43 : Turnaround (from right side or left side)
     };
 
 }
