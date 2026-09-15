@@ -1501,9 +1501,9 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = 10;
                 if (rotation >= 12)
                 {
+                    id = 10;
                     break;
                 }
                 if (rotation >= 4)
@@ -1520,9 +1520,9 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = 11;
                 if (rotation >= 12)
                 {
+                    id = 11;
                     break;
                 }
                 if (rotation >= 4)
@@ -1543,9 +1543,9 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = 33;
                 if (rotation >= 8)
                 {
+                    id = 33;
                     break;
                 }
                 if (rotation >= 4)
@@ -1566,9 +1566,9 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = 32;
                 if (rotation >= 4)
                 {
+                    id = 32;
                     break;
                 }
                 id = 13;
@@ -1656,7 +1656,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
             }
         }
 
-        if (rotation < 12)
+        if (rotation < 12) // Is this meant to be `<` ?
         {
             rotation &= 3;
         }
