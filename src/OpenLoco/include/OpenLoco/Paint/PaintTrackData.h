@@ -1881,6 +1881,117 @@ namespace OpenLoco::Paint
         kLeftCurveSmallSteepSlopeDown3,
     };
 
+    
+    
+    constexpr auto kStraightLeftSideSpriteOffset = 412;
+
+    constexpr TrackPaintPiece kStraightLeftSide0 = {
+        std::array<std::array<uint32_t, 3>, 4>{
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 0, kStraightLeftSideSpriteOffset + 4, kStraightLeftSideSpriteOffset + 8 },
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 1, kStraightLeftSideSpriteOffset + 5, kStraightLeftSideSpriteOffset + 9 },
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 2, kStraightLeftSideSpriteOffset + 6, kStraightLeftSideSpriteOffset + 10 },
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 3, kStraightLeftSideSpriteOffset + 7, kStraightLeftSideSpriteOffset + 11 },
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            World::Pos3{ 2, 5, 0 },
+            World::Pos3{ 5, 2, 0 },
+            World::Pos3{ 2, 5, 0 },
+            World::Pos3{ 5, 2, 0 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            World::Pos3{ 28, 22, 1 },
+            World::Pos3{ 22, 28, 1 },
+            World::Pos3{ 28, 22, 1 },
+            World::Pos3{ 22, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0101,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ kFlatBridge,
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            0,
+            kNoTunnel,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x1y1 | SegmentFlags::x0y1 | SegmentFlags::x2y1,
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kStraightLeftSideTPP = {
+        kStraightLeftSide0,
+    };
+
+    constexpr TrackPaintPiece kStraightRightSide0 = {
+        std::array<std::array<uint32_t, 3>, 4>{
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 2, kStraightLeftSideSpriteOffset + 6, kStraightLeftSideSpriteOffset + 10 },
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 3, kStraightLeftSideSpriteOffset + 7, kStraightLeftSideSpriteOffset + 11 },
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 0, kStraightLeftSideSpriteOffset + 4, kStraightLeftSideSpriteOffset + 8 },
+            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 1, kStraightLeftSideSpriteOffset + 5, kStraightLeftSideSpriteOffset + 9 },
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            World::Pos3{ 2, 5, 0 },
+            World::Pos3{ 5, 2, 0 },
+            World::Pos3{ 2, 5, 0 },
+            World::Pos3{ 5, 2, 0 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            World::Pos3{ 28, 22, 1 },
+            World::Pos3{ 22, 28, 1 },
+            World::Pos3{ 28, 22, 1 },
+            World::Pos3{ 22, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0101,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ kFlatBridge,
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            0,
+            kNoTunnel,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x1y1 | SegmentFlags::x0y1 | SegmentFlags::x2y1,
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kStraightRightSideTPP = {
+        kStraightRightSide0,
+    };
+
+    constexpr auto kTurnaroundSpriteOffset = 424;
+
+    constexpr TrackPaintPiece kTurnaround0 = { // Adapted from PaintRoadStyle1Data.h; PaintRoadCommonData.h
+        std::array<std::array<uint32_t, 3>, 4>{
+            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 0, kTurnaroundSpriteOffset + 4, kTurnaroundSpriteOffset + 8 },
+            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 1, kTurnaroundSpriteOffset + 5, kTurnaroundSpriteOffset + 9 },
+            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 2, kTurnaroundSpriteOffset + 6, kTurnaroundSpriteOffset + 10 },
+            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 3, kTurnaroundSpriteOffset + 7, kTurnaroundSpriteOffset + 11 },
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            World::Pos3{ 16, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 16, 0 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            World::Pos3{ 14, 28, 1 },
+            World::Pos3{ 28, 14, 1 },
+            World::Pos3{ 14, 28, 1 },
+            World::Pos3{ 28, 14, 1 },
+        },
+        /* BridgeEdges */ 0b0100,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ kFlatBridge,
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            kNoTunnel,
+            kNoTunnel,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x2y0 | SegmentFlags::x2y2 | SegmentFlags::x1y1 | SegmentFlags::x2y1, // There is no understanding this
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kTurnaroundTPP = {
+        kTurnaround0,
+    };
+
     constexpr std::array<std::span<const TrackPaintPiece>, 44> kTrackPaintParts = {
         kStraightTPP,
         kDiagonalTPP,
@@ -1910,24 +2021,24 @@ namespace OpenLoco::Paint
         kRightCurveSmallSteepSlopeDownTPP,
 
         // EVIL
-        kStraightTPP,// kStraightLeftSideTPP, // 26 : left side straight
-        kStraightTPP,// kStraightRightSideTPP, // 27 : right side straight
-        kStraightTPP,// 28 UNKNOWN
-        kStraightTPP,// 29 UNKNOWN
-        kStraightTPP,// 30 UNKNOWN
-        kStraightTPP,// 31 UNKNOWN
-        kStraightTPP,// 32 UNKNOWN
-        kStraightTPP,// 33 : 'S' Bend Right (from left track) // 'S' Bend Left (from right track) // One of these is 33 I messed up
-        kStraightTPP,// 34 : left side straight steep slope up
-        kStraightTPP,// 35 UNKNOWN
-        kStraightTPP,// 36 : left side straight steep slope down
-        kStraightTPP,// 37 UNKNOWN
-        kStraightTPP,// 38 : 'S' Bend to left side of dual track (from single track)
-        kStraightTPP,// 39 UNKNOWN
-        kStraightTPP,// 40 : Appears to be left side to single
-        kStraightTPP,// 41 : 'S' Bend to single track (from right side)
-        kStraightTPP,// 42 UNKNOWN
-        kStraightTPP,// 43 : Turnaround (from right side or left side)
+        kStraightLeftSideTPP,
+        kStraightRightSideTPP,
+        kStraightTPP,   // 28 UNKNOWN
+        kStraightTPP,   // 29 UNKNOWN
+        kStraightTPP,   // 30 UNKNOWN
+        kStraightTPP,   // 31 UNKNOWN
+        kStraightTPP,   // 32 UNKNOWN
+        kStraightTPP,   // 33 : 'S' Bend Right (from left track) // 'S' Bend Left (from right track) // One of these is 33 I messed up
+        kStraightTPP,   // 34 : left side straight steep slope up
+        kStraightTPP,   // 35 UNKNOWN
+        kStraightTPP,   // 36 : left side straight steep slope down
+        kStraightTPP,   // 37 UNKNOWN
+        kStraightTPP,   // 38 : 'S' Bend to left side of dual track (from single track)
+        kStraightTPP,   // 39 UNKNOWN
+        kStraightTPP,   // 40 : Appears to be left side to single
+        kStraightTPP,   // 41 : 'S' Bend to single track (from right side)
+        kTurnaroundTPP, // 42 UNKNOWN
+        kTurnaroundTPP, // 43 : Turnaround (from right side or left side)
     };
 
 }
