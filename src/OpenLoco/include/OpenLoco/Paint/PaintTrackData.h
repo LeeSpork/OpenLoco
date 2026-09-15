@@ -1955,7 +1955,91 @@ namespace OpenLoco::Paint
         kStraightRightSide0,
     };
 
-    constexpr auto kTurnaroundSpriteOffset = 424;
+    constexpr auto kRightCurveVerySmallSpriteOffset = 424;
+
+    constexpr TrackPaintPiece kRightCurveVerySmallOuter0 = {
+        std::array<std::array<uint32_t, 3>, 4>{
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 0, kRightCurveVerySmallSpriteOffset + 8, kRightCurveVerySmallSpriteOffset + 16 },
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 2, kRightCurveVerySmallSpriteOffset + 10, kRightCurveVerySmallSpriteOffset + 18 },
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 4, kRightCurveVerySmallSpriteOffset + 12, kRightCurveVerySmallSpriteOffset + 20 },
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 6, kRightCurveVerySmallSpriteOffset + 14, kRightCurveVerySmallSpriteOffset + 22 },
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            World::Pos3{ 28, 28, 1 },
+            World::Pos3{ 28, 28, 1 },
+            World::Pos3{ 28, 28, 1 },
+            World::Pos3{ 28, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0110,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ kFlatBridge,
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            kNoTunnel,
+            0,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x2y2 | SegmentFlags::x1y1 | SegmentFlags::x2y1 | SegmentFlags::x1y2,
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kRightCurveVerySmallOuterTPP = {
+        kRightCurveVerySmallOuter0,
+    };
+
+    constexpr TrackPaintPiece kRightCurveVerySmallInner0 = {
+        std::array<std::array<uint32_t, 3>, 4>{
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 1, kRightCurveVerySmallSpriteOffset + 9, kRightCurveVerySmallSpriteOffset + 17 },
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 3, kRightCurveVerySmallSpriteOffset + 11, kRightCurveVerySmallSpriteOffset + 19 },
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 5, kRightCurveVerySmallSpriteOffset + 13, kRightCurveVerySmallSpriteOffset + 21 },
+            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 7, kRightCurveVerySmallSpriteOffset + 15, kRightCurveVerySmallSpriteOffset + 23 },
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+            World::Pos3{ 2, 2, 0 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            World::Pos3{ 28, 28, 1 },
+            World::Pos3{ 28, 28, 1 },
+            World::Pos3{ 28, 28, 1 },
+            World::Pos3{ 28, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0110,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ kFlatBridge,
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            kNoTunnel,
+            0,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x2y2 | SegmentFlags::x1y1 | SegmentFlags::x2y1 | SegmentFlags::x1y2,
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kRightCurveVerySmallInnerTPP = {
+        kRightCurveVerySmallInner0,
+    };
+
+    constexpr TrackPaintPiece kLeftCurveVerySmallOuter0 = rotateTrackPP(kRightCurveVerySmallOuter0, kRotationTable1230);
+
+    constexpr std::array<TrackPaintPiece, 1> kLeftCurveVerySmallOuterTPP = {
+        kLeftCurveVerySmallOuter0,
+    };
+
+    constexpr TrackPaintPiece kLeftCurveVerySmallInner0 = rotateTrackPP(kRightCurveVerySmallInner0, kRotationTable1230);
+
+    constexpr std::array<TrackPaintPiece, 1> kLeftCurveVerySmallInnerTPP = {
+        kLeftCurveVerySmallInner0,
+    };
+
+    constexpr auto kTurnaroundSpriteOffset = 452;
 
     constexpr TrackPaintPiece kTurnaround0 = { // Adapted from PaintRoadStyle1Data.h; PaintRoadCommonData.h
         std::array<std::array<uint32_t, 3>, 4>{
@@ -2023,12 +2107,12 @@ namespace OpenLoco::Paint
         // EVIL
         kStraightLeftSideTPP,
         kStraightRightSideTPP,
-        kStraightTPP,   // 28 UNKNOWN
-        kStraightTPP,   // 29 UNKNOWN
-        kStraightTPP,   // 30 UNKNOWN
-        kStraightTPP,   // 31 UNKNOWN
-        kStraightTPP,   // 32 UNKNOWN
-        kStraightTPP,   // 33 : 'S' Bend Right (from left track) // 'S' Bend Left (from right track) // One of these is 33 I messed up
+        kLeftCurveVerySmallInnerTPP,
+        kLeftCurveVerySmallOuterTPP,
+        kRightCurveVerySmallOuterTPP,
+        kRightCurveVerySmallInnerTPP,
+        kStraightTPP,   // 32 S bend within one tile
+        kStraightTPP,   // 33 S bend within one tile
         kStraightTPP,   // 34 : left side straight steep slope up
         kStraightTPP,   // 35 UNKNOWN
         kStraightTPP,   // 36 : left side straight steep slope down
