@@ -4,7 +4,7 @@
 
 // clang-format off
 
-#define OPENLOCO_NAME "OpenLoco"
+#define OPENLOCO_NAME "JokziLoco"
 
 #if defined(__amd64__) || defined(_M_AMD64)
     #define OPENLOCO_ARCHITECTURE "x86-64"
@@ -64,7 +64,7 @@ namespace OpenLoco::Version
     constexpr const char* kBranch = OPENLOCO_BRANCH;
     constexpr const char* kCommitSha1Short = OPENLOCO_COMMIT_SHA1_SHORT;
 
-    static const char kVersion[] = OPENLOCO_NAME ", "
+    static const char kVersion[] = OPENLOCO_NAME " "
         #ifdef OPENLOCO_VERSION_TAG
             OPENLOCO_VERSION_TAG
         #else
