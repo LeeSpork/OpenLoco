@@ -2145,14 +2145,12 @@ namespace OpenLoco::Paint
         kLeftCurveVerySmallInner0,
     };
 
-    constexpr auto kTurnaroundSpriteOffset = 484; // TODO check this and its users
-
     constexpr TrackPaintPiece kTurnaround0 = { // Adapted from PaintRoadStyle1Data.h; PaintRoadCommonData.h
         std::array<std::array<uint32_t, 3>, 4>{
-            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 0, kTurnaroundSpriteOffset + 4, kTurnaroundSpriteOffset + 8 },
-            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 1, kTurnaroundSpriteOffset + 5, kTurnaroundSpriteOffset + 9 },
-            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 2, kTurnaroundSpriteOffset + 6, kTurnaroundSpriteOffset + 10 },
-            std::array<uint32_t, 3>{ kTurnaroundSpriteOffset + 3, kTurnaroundSpriteOffset + 7, kTurnaroundSpriteOffset + 11 },
+            std::array<uint32_t, 3>{ 484 + 0, 484 + 4, 484 + 8 },
+            std::array<uint32_t, 3>{ 484 + 1, 484 + 5, 484 + 9 },
+            std::array<uint32_t, 3>{ 484 + 2, 484 + 6, 484 + 10 },
+            std::array<uint32_t, 3>{ 484 + 3, 484 + 7, 484 + 11 },
         },
         /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
             World::Pos3{ 16, 2, 0 },
