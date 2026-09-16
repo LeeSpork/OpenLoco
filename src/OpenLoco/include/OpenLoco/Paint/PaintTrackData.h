@@ -2207,7 +2207,6 @@ namespace OpenLoco::Paint
         kSBendSingleToRightSide0,
     };
 
-    
     constexpr TrackPaintPiece kSBendLeftSideToSingle0 = rotateTrackPP(kSBendSingleToRightSide0, kRotationTable2301);
 
     constexpr std::array<TrackPaintPiece, 1> kSBendLeftSideToSingleTPP = {
