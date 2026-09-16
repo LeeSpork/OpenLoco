@@ -2061,14 +2061,12 @@ namespace OpenLoco::Paint
         kSBendSingleToLeftSide0,
     };
 
-    constexpr auto kRightCurveVerySmallSpriteOffset = 424; // Wrong. Order of users is probs wrong too.
-
     constexpr TrackPaintPiece kRightCurveVerySmallOuter0 = {
         std::array<std::array<uint32_t, 3>, 4>{
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 0, kRightCurveVerySmallSpriteOffset + 8, kRightCurveVerySmallSpriteOffset + 16 },
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 2, kRightCurveVerySmallSpriteOffset + 10, kRightCurveVerySmallSpriteOffset + 18 },
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 4, kRightCurveVerySmallSpriteOffset + 12, kRightCurveVerySmallSpriteOffset + 20 },
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 6, kRightCurveVerySmallSpriteOffset + 14, kRightCurveVerySmallSpriteOffset + 22 },
+            std::array<uint32_t, 3>{ 460 + 0, 460 + 4, 460 + 8 },
+            std::array<uint32_t, 3>{ 460 + 1, 460 + 5, 460 + 9 },
+            std::array<uint32_t, 3>{ 460 + 2, 460 + 6, 460 + 10 },
+            std::array<uint32_t, 3>{ 460 + 3, 460 + 7, 460 + 11 },
         },
         /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
             World::Pos3{ 2, 2, 0 },
@@ -2100,10 +2098,10 @@ namespace OpenLoco::Paint
 
     constexpr TrackPaintPiece kRightCurveVerySmallInner0 = {
         std::array<std::array<uint32_t, 3>, 4>{
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 1, kRightCurveVerySmallSpriteOffset + 9, kRightCurveVerySmallSpriteOffset + 17 },
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 3, kRightCurveVerySmallSpriteOffset + 11, kRightCurveVerySmallSpriteOffset + 19 },
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 5, kRightCurveVerySmallSpriteOffset + 13, kRightCurveVerySmallSpriteOffset + 21 },
-            std::array<uint32_t, 3>{ kRightCurveVerySmallSpriteOffset + 7, kRightCurveVerySmallSpriteOffset + 15, kRightCurveVerySmallSpriteOffset + 23 },
+            std::array<uint32_t, 3>{ 472 + 0, 472 + 4, 472 + 8 },
+            std::array<uint32_t, 3>{ 472 + 1, 472 + 5, 472 + 9 },
+            std::array<uint32_t, 3>{ 472 + 2, 472 + 6, 472 + 10 },
+            std::array<uint32_t, 3>{ 472 + 3, 472 + 7, 472 + 11 },
         },
         /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
             World::Pos3{ 2, 2, 0 },
