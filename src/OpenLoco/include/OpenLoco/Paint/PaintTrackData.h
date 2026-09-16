@@ -2061,6 +2061,54 @@ namespace OpenLoco::Paint
         kSBendSingleToLeftSide0,
     };
 
+    constexpr TrackPaintPiece kSBendSingleToRightSide0 = {
+        std::array<std::array<uint32_t, 3>, 4>{
+            std::array<uint32_t, 3>{ 440, 448, 456 },
+            std::array<uint32_t, 3>{ 441, 449, 457 },
+            std::array<uint32_t, 3>{ 442, 450, 458 },
+            std::array<uint32_t, 3>{ 443, 451, 459 },
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+            World::Pos3{ 2, 5, 0 },
+            World::Pos3{ 5, 2, 0 },
+            World::Pos3{ 2, 5, 0 },
+            World::Pos3{ 5, 2, 0 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+            World::Pos3{ 28, 22, 1 },
+            World::Pos3{ 22, 28, 1 },
+            World::Pos3{ 28, 22, 1 },
+            World::Pos3{ 22, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0101,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ kFlatBridge,
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            0,
+            kNoTunnel,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x1y1 | SegmentFlags::x0y1 | SegmentFlags::x2y1, // TODO
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kSBendSingleToRightSideTPP = {
+        kSBendSingleToRightSide0,
+    };
+
+    
+    constexpr TrackPaintPiece kSBendLeftSideToSingle0 = rotateTrackPP(kSBendSingleToRightSide0, kRotationTable2301);
+
+    constexpr std::array<TrackPaintPiece, 1> kSBendLeftSideToSingleTPP = {
+        kSBendLeftSideToSingle0,
+    };
+
+    constexpr TrackPaintPiece kSBendRightSideToSingle0 = rotateTrackPP(kSBendSingleToLeftSide0, kRotationTable2301);
+
+    constexpr std::array<TrackPaintPiece, 1> kSBendRightSideToSingleTPP = {
+        kSBendRightSideToSingle0,
+    };
+
     constexpr TrackPaintPiece kRightCurveVerySmallOuter0 = {
         std::array<std::array<uint32_t, 3>, 4>{
             std::array<uint32_t, 3>{ 460 + 0, 460 + 4, 460 + 8 },
@@ -2220,9 +2268,9 @@ namespace OpenLoco::Paint
         kStraightTPP,   // 36 : left side straight steep slope down
         kStraightTPP,   // 37 UNKNOWN
         kSBendSingleToLeftSideTPP,
-        kStraightTPP,   // 39 UNKNOWN
-        kStraightTPP,   // 40 : Appears to be left side to single
-        kStraightTPP,   // 41 : 'S' Bend to single track (from right side)
+        kSBendSingleToRightSideTPP,
+        kSBendLeftSideToSingleTPP,
+        kSBendRightSideToSingleTPP,
         kTurnaroundTPP, // 42 UNKNOWN
         kTurnaroundTPP, // 43 : Turnaround (from right side or left side)
     };
