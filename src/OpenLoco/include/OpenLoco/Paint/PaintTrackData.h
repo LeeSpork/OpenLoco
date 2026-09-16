@@ -2026,6 +2026,100 @@ namespace OpenLoco::Paint
         kSBendRightSideToLeftSide0,
     };
 
+    // Wasn't implemented or didn't work in vanilla
+    constexpr TrackPaintPiece kStraightLeftSideSteepSlopeUp0 = {
+        std::array<uint32_t, 4>{ // TODO - are these the numbers original Locomotion would have used?
+            496,
+            497,
+            498,
+            499,
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+            World::Pos3{ 2, 6, 2 },
+            World::Pos3{ 6, 2, 2 },
+            World::Pos3{ 2, 6, 2 },
+            World::Pos3{ 6, 2, 2 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+            World::Pos3{ 28, 20, 1 },
+            World::Pos3{ 20, 28, 1 },
+            World::Pos3{ 28, 20, 1 },
+            World::Pos3{ 20, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0101,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ std::array<uint8_t, 4>{
+            9,
+            10,
+            11,
+            12,
+        },
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            16,
+            kNoTunnel,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x1y1 | SegmentFlags::x0y1 | SegmentFlags::x2y1, // TODO
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kStraightLeftSideSteepSlopeUpTPP = {
+        kStraightLeftSideSteepSlopeUp0,
+    };
+
+    constexpr TrackPaintPiece kStraightRightSideSteepSlopeDown0 = rotateTrackPP(kStraightLeftSideSteepSlopeUp0, kRotationTable2301);
+
+    constexpr std::array<TrackPaintPiece, 1> kStraightRightSideSteepSlopeDownTPP = {
+        kStraightRightSideSteepSlopeDown0,
+    };
+
+    // Wasn't implemented or didn't work in vanilla
+    constexpr TrackPaintPiece kStraightRightSideSteepSlopeUp0 = {
+        std::array<uint32_t, 4>{ // TODO - are these the numbers original Locomotion would have used?
+            500,
+            501,
+            502,
+            503,
+        },
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+            World::Pos3{ 2, 6, 2 },
+            World::Pos3{ 6, 2, 2 },
+            World::Pos3{ 2, 6, 2 },
+            World::Pos3{ 6, 2, 2 },
+        },
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+            World::Pos3{ 28, 20, 1 },
+            World::Pos3{ 20, 28, 1 },
+            World::Pos3{ 28, 20, 1 },
+            World::Pos3{ 20, 28, 1 },
+        },
+        /* BridgeEdges */ 0b0101,
+        /* BridgeQuarters */ 0b1111,
+        /* BridgeType */ std::array<uint8_t, 4>{
+            9,
+            10,
+            11,
+            12,
+        },
+        /* TunnelHeights */ std::array<int16_t, 4>{
+            16,
+            kNoTunnel,
+            0,
+            kNoTunnel,
+        },
+        /* Segments */ SegmentFlags::x1y1 | SegmentFlags::x0y1 | SegmentFlags::x2y1, // TODO
+    };
+
+    constexpr std::array<TrackPaintPiece, 1> kStraightRightSideSteepSlopeUpTPP = {
+        kStraightRightSideSteepSlopeUp0,
+    };
+
+    constexpr TrackPaintPiece kStraightLeftSideSteepSlopeDown0 = rotateTrackPP(kStraightRightSideSteepSlopeUp0, kRotationTable2301);
+
+    constexpr std::array<TrackPaintPiece, 1> kStraightLeftSideSteepSlopeDownTPP = {
+        kStraightLeftSideSteepSlopeDown0,
+    };
+
     constexpr TrackPaintPiece kSBendSingleToLeftSide0 = {
         std::array<std::array<uint32_t, 3>, 4>{
             std::array<uint32_t, 3>{ 436, 444, 452 },
@@ -2263,16 +2357,16 @@ namespace OpenLoco::Paint
         kRightCurveVerySmallInnerTPP,
         kSBendLeftSideToRightSideTPP,
         kSBendRightSideToLeftSideTPP,
-        kStraightTPP,   // 34 : left side straight steep slope up
-        kStraightTPP,   // 35 UNKNOWN
-        kStraightTPP,   // 36 : left side straight steep slope down
-        kStraightTPP,   // 37 UNKNOWN
+        kStraightLeftSideSteepSlopeUpTPP,
+        kStraightRightSideSteepSlopeUpTPP,
+        kStraightLeftSideSteepSlopeDownTPP,
+        kStraightRightSideSteepSlopeDownTPP,
         kSBendSingleToLeftSideTPP,
         kSBendSingleToRightSideTPP,
         kSBendLeftSideToSingleTPP,
         kSBendRightSideToSingleTPP,
-        kTurnaroundTPP, // 42 UNKNOWN
-        kTurnaroundTPP, // 43 : Turnaround (from right side or left side)
+        kTurnaroundTPP,
+        kTurnaroundTPP,
     };
 
 }
