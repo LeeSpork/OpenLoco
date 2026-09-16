@@ -1881,9 +1881,8 @@ namespace OpenLoco::Paint
         kLeftCurveSmallSteepSlopeDown3,
     };
 
-
     // EVIL BELLOW
-    
+
     constexpr auto kStraightLeftSideSpriteOffset = 412;
 
     constexpr TrackPaintPiece kStraightLeftSide0 = {
@@ -1893,13 +1892,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 2, kStraightLeftSideSpriteOffset + 6, kStraightLeftSideSpriteOffset + 10 },
             std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 3, kStraightLeftSideSpriteOffset + 7, kStraightLeftSideSpriteOffset + 11 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 22, 1 },
             World::Pos3{ 22, 28, 1 },
             World::Pos3{ 28, 22, 1 },
@@ -1928,13 +1929,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 0, kStraightLeftSideSpriteOffset + 4, kStraightLeftSideSpriteOffset + 8 },
             std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 1, kStraightLeftSideSpriteOffset + 5, kStraightLeftSideSpriteOffset + 9 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 22, 1 },
             World::Pos3{ 22, 28, 1 },
             World::Pos3{ 28, 22, 1 },
@@ -1963,13 +1966,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ 426, 430, 434 },
             std::array<uint32_t, 3>{ 427, 431, 435 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 22, 1 },
             World::Pos3{ 22, 28, 1 },
             World::Pos3{ 28, 22, 1 },
@@ -1998,13 +2003,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ 424, 428, 432 },
             std::array<uint32_t, 3>{ 425, 429, 433 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 22, 1 },
             World::Pos3{ 22, 28, 1 },
             World::Pos3{ 28, 22, 1 },
@@ -2028,19 +2035,22 @@ namespace OpenLoco::Paint
 
     // Wasn't implemented or didn't work in vanilla
     constexpr TrackPaintPiece kStraightLeftSideSteepSlopeUp0 = {
-        std::array<uint32_t, 4>{ // TODO - are these the numbers original Locomotion would have used?
+        std::array<uint32_t, 4>{
+            // TODO - are these the numbers original Locomotion would have used?
             496,
             497,
             498,
             499,
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 6, 2 },
             World::Pos3{ 6, 2, 2 },
             World::Pos3{ 2, 6, 2 },
             World::Pos3{ 6, 2, 2 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 20, 1 },
             World::Pos3{ 20, 28, 1 },
             World::Pos3{ 28, 20, 1 },
@@ -2075,19 +2085,22 @@ namespace OpenLoco::Paint
 
     // Wasn't implemented or didn't work in vanilla
     constexpr TrackPaintPiece kStraightRightSideSteepSlopeUp0 = {
-        std::array<uint32_t, 4>{ // TODO - are these the numbers original Locomotion would have used?
+        std::array<uint32_t, 4>{
+            // TODO - are these the numbers original Locomotion would have used?
             500,
             501,
             502,
             503,
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 6, 2 },
             World::Pos3{ 6, 2, 2 },
             World::Pos3{ 2, 6, 2 },
             World::Pos3{ 6, 2, 2 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 20, 1 },
             World::Pos3{ 20, 28, 1 },
             World::Pos3{ 28, 20, 1 },
@@ -2127,13 +2140,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ 438, 446, 454 },
             std::array<uint32_t, 3>{ 439, 447, 455 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 22, 1 },
             World::Pos3{ 22, 28, 1 },
             World::Pos3{ 28, 22, 1 },
@@ -2162,13 +2177,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ 442, 450, 458 },
             std::array<uint32_t, 3>{ 443, 451, 459 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
             World::Pos3{ 2, 5, 0 },
             World::Pos3{ 5, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 22, 1 },
             World::Pos3{ 22, 28, 1 },
             World::Pos3{ 28, 22, 1 },
@@ -2210,13 +2227,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ 460 + 2, 460 + 6, 460 + 10 },
             std::array<uint32_t, 3>{ 460 + 3, 460 + 7, 460 + 11 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 28, 1 },
             World::Pos3{ 28, 28, 1 },
             World::Pos3{ 28, 28, 1 },
@@ -2245,13 +2264,15 @@ namespace OpenLoco::Paint
             std::array<uint32_t, 3>{ 472 + 2, 472 + 6, 472 + 10 },
             std::array<uint32_t, 3>{ 472 + 3, 472 + 7, 472 + 11 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 28, 28, 1 },
             World::Pos3{ 28, 28, 1 },
             World::Pos3{ 28, 28, 1 },
@@ -2285,20 +2306,23 @@ namespace OpenLoco::Paint
         kLeftCurveVerySmallInner0,
     };
 
-    constexpr TrackPaintPiece kTurnaround0 = { // Adapted from PaintRoadStyle1Data.h; PaintRoadCommonData.h
+    // Adapted from PaintRoadStyle1Data.h; PaintRoadCommonData.h
+    constexpr TrackPaintPiece kTurnaround0 = {
         std::array<std::array<uint32_t, 3>, 4>{
             std::array<uint32_t, 3>{ 484 + 0, 484 + 4, 484 + 8 },
             std::array<uint32_t, 3>{ 484 + 1, 484 + 5, 484 + 9 },
             std::array<uint32_t, 3>{ 484 + 2, 484 + 6, 484 + 10 },
             std::array<uint32_t, 3>{ 484 + 3, 484 + 7, 484 + 11 },
         },
-        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 16, 2, 0 },
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 2, 0 },
             World::Pos3{ 2, 16, 0 },
         },
-        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{ // TODO
+        /* BoundingBoxSizes */ std::array<World::Pos3, 4>{
+            // TODO
             World::Pos3{ 14, 28, 1 },
             World::Pos3{ 28, 14, 1 },
             World::Pos3{ 14, 28, 1 },
