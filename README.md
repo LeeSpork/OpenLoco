@@ -4,9 +4,6 @@ Recreational use of JokziLoco is not recommended:
 there is **no guarantee** that saves/scenarios created in JokziLoco - and objects created for it - will work in OpenLoco nor future versions of OpenLoco,
 and they could potentially even break in future versions of JokziLoco.
 
-<img width="1461" height="883" alt="image" src="https://github.com/user-attachments/assets/73f57521-00bb-4a53-9887-14240f88298e" />
-Evil Gauge Track v12 not included due to copyright concerns.
-
 ## What's new in JokziLoco v000000000000000000 ?
 
 ### Support for One-Sided Track Pieces
@@ -25,7 +22,10 @@ with the construction buttons for them not working correctly,
 and their paint data not being implemented.
 Thus, this version of “JokziLoco” has fixed it!
 
-Porting these changes back to OpenLoco TBD.
+Cherry-picking these changes back to OpenLoco TBD.
+
+<img width="1461" height="883" alt="Evil Gauge Track v12 screenshot" src="https://github.com/user-attachments/assets/73f57521-00bb-4a53-9887-14240f88298e" />
+(Evil Gauge Track v12 not included due to copyright concerns.)
 
 ### UTF-8
 
