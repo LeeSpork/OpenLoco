@@ -18,6 +18,7 @@
 #include "Map/TileManager.h"
 #include "Map/Track/Track.h"
 #include "Map/Track/TrackData.h"
+#include "Map/Track/TrackEnum.h"
 #include "Map/TrackElement.h"
 #include "Objects/BridgeObject.h"
 #include "Objects/ObjectManager.h"
@@ -1284,7 +1285,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
             return std::nullopt;
         }
 
-        TrackId id = TrackId::straight;
+        Track::TrackId id = Track::TrackId::straight;
 
         switch (trackPiece)
         {
@@ -1292,7 +1293,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
             {
                 if (rotation >= 12)
                 {
-                    id = TrackId::diagonal;
+                    id = Track::TrackId::diagonal;
                     if (gradient != TrackGradient::level)
                     {
                         return std::nullopt;
@@ -1307,13 +1308,13 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                             default:
                                 return std::nullopt;
                             case TrackGradient::level:
-                                id = TrackId::straightRightSide;
+                                id = Track::TrackId::straightRightSide;
                                 break;
                             case TrackGradient::steep_slope_up:
-                                id = TrackId::straightRightSideSteepSlopeUp;
+                                id = Track::TrackId::straightRightSideSteepSlopeUp;
                                 break;
                             case TrackGradient::steep_slope_down:
-                                id = TrackId::straightRightSideSteepSlopeDown;
+                                id = Track::TrackId::straightRightSideSteepSlopeDown;
                                 break;
                         }
                     }
@@ -1324,13 +1325,13 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                             default:
                                 return std::nullopt;
                             case TrackGradient::level:
-                                id = TrackId::straightLeftSide;
+                                id = Track::TrackId::straightLeftSide;
                                 break;
                             case TrackGradient::steep_slope_up:
-                                id = TrackId::straightLeftSideSteepSlopeUp;
+                                id = Track::TrackId::straightLeftSideSteepSlopeUp;
                                 break;
                             case TrackGradient::steep_slope_down:
-                                id = TrackId::straightLeftSideSteepSlopeDown;
+                                id = Track::TrackId::straightLeftSideSteepSlopeDown;
                                 break;
                         }
                     }
@@ -1341,19 +1342,19 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                             default:
                                 return std::nullopt;
                             case TrackGradient::level:
-                                id = TrackId::straight;
+                                id = Track::TrackId::straight;
                                 break;
                             case TrackGradient::slope_up:
-                                id = TrackId::straightSlopeUp;
+                                id = Track::TrackId::straightSlopeUp;
                                 break;
                             case TrackGradient::slope_down:
-                                id = TrackId::straightSlopeDown;
+                                id = Track::TrackId::straightSlopeDown;
                                 break;
                             case TrackGradient::steep_slope_up:
-                                id = TrackId::straightSteepSlopeUp;
+                                id = Track::TrackId::straightSteepSlopeUp;
                                 break;
                             case TrackGradient::steep_slope_down:
-                                id = TrackId::straightSteepSlopeDown;
+                                id = Track::TrackId::straightSteepSlopeDown;
                                 break;
                         }
                     }
@@ -1373,15 +1374,15 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 8)
                 {
-                    id = TrackId::leftCurveVerySmallOuter;
+                    id = Track::TrackId::leftCurveVerySmallOuter;
                     break;
                 }
                 if (rotation >= 4)
                 {
-                    id = TrackId::leftCurveVerySmallInner;
+                    id = Track::TrackId::leftCurveVerySmallInner;
                     break;
                 }
-                id = TrackId::leftCurveVerySmall;
+                id = Track::TrackId::leftCurveVerySmall;
                 break;
             }
 
@@ -1397,15 +1398,15 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 8)
                 {
-                    id = TrackId::rightCurveVerySmallInner;
+                    id = Track::TrackId::rightCurveVerySmallInner;
                     break;
                 }
                 if (rotation >= 4)
                 {
-                    id = TrackId::rightCurveVerySmallOuter;
+                    id = Track::TrackId::rightCurveVerySmallOuter;
                     break;
                 }
-                id = TrackId::rightCurveVerySmall;
+                id = Track::TrackId::rightCurveVerySmall;
                 break;
             }
 
@@ -1420,19 +1421,19 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                     default:
                         return std::nullopt;
                     case TrackGradient::level:
-                        id = TrackId::leftCurveSmall;
+                        id = Track::TrackId::leftCurveSmall;
                         break;
                     case TrackGradient::slope_up:
-                        id = TrackId::leftCurveSmallSlopeUp;
+                        id = Track::TrackId::leftCurveSmallSlopeUp;
                         break;
                     case TrackGradient::slope_down:
-                        id = TrackId::leftCurveSmallSlopeDown;
+                        id = Track::TrackId::leftCurveSmallSlopeDown;
                         break;
                     case TrackGradient::steep_slope_up:
-                        id = TrackId::leftCurveSmallSteepSlopeUp;
+                        id = Track::TrackId::leftCurveSmallSteepSlopeUp;
                         break;
                     case TrackGradient::steep_slope_down:
-                        id = TrackId::leftCurveSmallSteepSlopeDown;
+                        id = Track::TrackId::leftCurveSmallSteepSlopeDown;
                         break;
                 }
                 break;
@@ -1449,19 +1450,19 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                     default:
                         return std::nullopt;
                     case TrackGradient::level:
-                        id = TrackId::rightCurveSmall;
+                        id = Track::TrackId::rightCurveSmall;
                         break;
                     case TrackGradient::slope_up:
-                        id = TrackId::rightCurveSmallSlopeUp;
+                        id = Track::TrackId::rightCurveSmallSlopeUp;
                         break;
                     case TrackGradient::slope_down:
-                        id = TrackId::rightCurveSmallSlopeDown;
+                        id = Track::TrackId::rightCurveSmallSlopeDown;
                         break;
                     case TrackGradient::steep_slope_up:
-                        id = TrackId::rightCurveSmallSlopeDown;
+                        id = Track::TrackId::rightCurveSmallSlopeDown;
                         break;
                     case TrackGradient::steep_slope_down:
-                        id = TrackId::rightCurveSmallSteepSlopeDown;
+                        id = Track::TrackId::rightCurveSmallSteepSlopeDown;
                         break;
                 }
                 break;
@@ -1473,7 +1474,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = TrackId::leftCurve;
+                id = Track::TrackId::leftCurve;
                 if (gradient != TrackGradient::level)
                 {
                     return std::nullopt;
@@ -1487,7 +1488,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = TrackId::rightCurve;
+                id = Track::TrackId::rightCurve;
                 if (gradient != TrackGradient::level)
                 {
                     return std::nullopt;
@@ -1503,14 +1504,14 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 12)
                 {
-                    id = TrackId::diagonalLeftCurveLarge;
+                    id = Track::TrackId::diagonalLeftCurveLarge;
                     break;
                 }
                 if (rotation >= 4)
                 {
                     return std::nullopt;
                 }
-                id = TrackId::leftCurveLarge;
+                id = Track::TrackId::leftCurveLarge;
                 break;
             }
 
@@ -1522,14 +1523,14 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 12)
                 {
-                    id = TrackId::diagonalRightCurveLarge;
+                    id = Track::TrackId::diagonalRightCurveLarge;
                     break;
                 }
                 if (rotation >= 4)
                 {
                     return std::nullopt;
                 }
-                id = TrackId::rightCurveLarge;
+                id = Track::TrackId::rightCurveLarge;
                 break;
             }
 
@@ -1545,14 +1546,14 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 8)
                 {
-                    id = TrackId::sBendRightSideToLeftSide;
+                    id = Track::TrackId::sBendRightSideToLeftSide;
                     break;
                 }
                 if (rotation >= 4)
                 {
                     return std::nullopt;
                 }
-                id = TrackId::sBendLeft;
+                id = Track::TrackId::sBendLeft;
                 break;
             }
 
@@ -1568,10 +1569,10 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 4)
                 {
-                    id = TrackId::sBendLeftSideToRightSide;
+                    id = Track::TrackId::sBendLeftSideToRightSide;
                     break;
                 }
-                id = TrackId::sBendRight;
+                id = Track::TrackId::sBendRight;
                 break;
             }
 
@@ -1588,10 +1589,10 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 if (rotation >= 4) // left side of dual track
                 {
                     // ???????
-                    id = TrackId::sBendLeftSideToSingle;
+                    id = Track::TrackId::sBendLeftSideToSingle;
                     break;
                 }
-                id = TrackId::sBendSingleToLeftSide;
+                id = Track::TrackId::sBendSingleToLeftSide;
                 break;
             }
 
@@ -1605,7 +1606,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 {
                     return std::nullopt;
                 }
-                id = TrackId::sBendSingleToRightSide;
+                id = Track::TrackId::sBendSingleToRightSide;
                 break;
             }
 
@@ -1621,12 +1622,12 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 8) // right side of dual track
                 {
-                    id = TrackId::sBendRightSideToSingle;
+                    id = Track::TrackId::sBendRightSideToSingle;
                     break;
                 }
                 if (rotation >= 4) // left side of dual track
                 {
-                    id = TrackId::sBendLeftSideToSingle;
+                    id = Track::TrackId::sBendLeftSideToSingle;
                     break;
                 }
                 return std::nullopt;
@@ -1644,12 +1645,12 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
                 }
                 if (rotation >= 8) // right side of dual track
                 {
-                    id = TrackId::turnaroundAnticlockwise;
+                    id = Track::TrackId::turnaroundAnticlockwise;
                     break;
                 }
                 if (rotation >= 4) // left side of dual track
                 {
-                    id = TrackId::turnaroundClockwise;
+                    id = Track::TrackId::turnaroundClockwise;
                     break;
                 }
                 return std::nullopt;
