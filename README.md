@@ -1,7 +1,6 @@
-# JokziLoco
-JozkiLoco is an “EVIL” fork of [OpenLoco](https://github.com/OpenLoco/OpenLoco). See there for more information.
-Use of JokziLoco is not recommended. Saves created in JokziLoco will **not** be supported by OpenLoco, and could potentially even be broken in future versions of JokziLoco.
+# [Jokzi](https://youtu.be/E5XZ7Fupupc)Loco
+The first self-proclaimed “Evil” fork of [OpenLoco](https://github.com/OpenLoco/OpenLoco) (see its README for more information).
+Use of JokziLoco is not recommended. There is **no guarentee** that saves/scenarios created in JokziLoco, and objects created for JokziLoco, will work in OpenLoco, and they could potentially even break in future versions of JokziLoco.
 
-<img width="1302" height="666" alt="image" src="https://github.com/user-attachments/assets/33cd78b1-9b6a-47c5-a3c7-e8bc6c0d9907" />
-
-Evil Gauge Track v03 not included due to copyright concerns.
+<img width="1461" height="883" alt="image" src="https://github.com/user-attachments/assets/73f57521-00bb-4a53-9887-14240f88298e" />
+Evil Gauge Track v12 not included due to copyright concerns.
