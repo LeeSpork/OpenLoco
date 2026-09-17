@@ -1661,7 +1661,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
             rotation &= 3;
         }
 
-        return TrackPieceId{ id, rotation };
+        return TrackPieceId{ static_cast<uint8_t>(id), rotation };
     }
 
     // 0x0049DAA5
