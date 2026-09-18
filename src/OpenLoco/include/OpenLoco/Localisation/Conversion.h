@@ -57,7 +57,7 @@ namespace OpenLoco::Localisation
         constexpr uint8_t z_acute = 254;  // 0xFE
 
         // Fallback for unsupported characters
-        constexpr uint8_t replacement_character = '?';
+        constexpr uint8_t replacement_character = 164; // Would be ¤ in ISO-8859-1/Unicode, but in Loco it seems to be a glitched glyph
     };
 
     namespace UnicodeChar
