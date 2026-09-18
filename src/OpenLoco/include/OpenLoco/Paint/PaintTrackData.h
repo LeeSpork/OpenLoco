@@ -1883,14 +1883,12 @@ namespace OpenLoco::Paint
 
     // EVIL BELLOW
 
-    constexpr auto kStraightLeftSideSpriteOffset = 412;
-
     constexpr TrackPaintPiece kStraightLeftSide0 = {
         std::array<std::array<uint32_t, 3>, 4>{
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 0, kStraightLeftSideSpriteOffset + 4, kStraightLeftSideSpriteOffset + 8 },
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 1, kStraightLeftSideSpriteOffset + 5, kStraightLeftSideSpriteOffset + 9 },
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 2, kStraightLeftSideSpriteOffset + 6, kStraightLeftSideSpriteOffset + 10 },
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 3, kStraightLeftSideSpriteOffset + 7, kStraightLeftSideSpriteOffset + 11 },
+            std::array<uint32_t, 3>{ 412 + 0, 412 + 4, 412 + 8 },
+            std::array<uint32_t, 3>{ 412 + 1, 412 + 5, 412 + 9 },
+            std::array<uint32_t, 3>{ 412 + 2, 412 + 6, 412 + 10 },
+            std::array<uint32_t, 3>{ 412 + 3, 412 + 7, 412 + 11 },
         },
         /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
             // TODO
@@ -1924,10 +1922,10 @@ namespace OpenLoco::Paint
 
     constexpr TrackPaintPiece kStraightRightSide0 = {
         std::array<std::array<uint32_t, 3>, 4>{
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 2, kStraightLeftSideSpriteOffset + 6, kStraightLeftSideSpriteOffset + 10 },
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 3, kStraightLeftSideSpriteOffset + 7, kStraightLeftSideSpriteOffset + 11 },
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 0, kStraightLeftSideSpriteOffset + 4, kStraightLeftSideSpriteOffset + 8 },
-            std::array<uint32_t, 3>{ kStraightLeftSideSpriteOffset + 1, kStraightLeftSideSpriteOffset + 5, kStraightLeftSideSpriteOffset + 9 },
+            std::array<uint32_t, 3>{ 412 + 2, 412 + 6, 412 + 10 },
+            std::array<uint32_t, 3>{ 412 + 3, 412 + 7, 412 + 11 },
+            std::array<uint32_t, 3>{ 412 + 0, 412 + 4, 412 + 8 },
+            std::array<uint32_t, 3>{ 412 + 1, 412 + 5, 412 + 9 },
         },
         /* BoundingBoxOffsets */ std::array<World::Pos3, 4>{
             // TODO
