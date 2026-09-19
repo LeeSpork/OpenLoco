@@ -1,0 +1,2796 @@
+[
+  { "path": "ui_preview_0.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage0" },
+  { "path": "ui_preview_1.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage1" },
+  { "path": "ui_preview_2.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage2" },
+  { "path": "ui_preview_3.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage3" },
+  { "path": "ui_preview_4.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage4" },
+  { "path": "ui_preview_5.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage5" },
+  { "path": "ui_preview_6.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage6" },
+  { "path": "ui_preview_7.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage7" },
+  { "path": "ui_preview_8.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage8" },
+  { "path": "ui_preview_9.png",  "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage9" },
+  { "path": "ui_preview_10.png", "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage10" },
+  { "path": "ui_preview_11.png", "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage11" },
+  { "path": "ui_preview_12.png", "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage12" },
+  { "path": "ui_preview_13.png", "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage13" },
+  { "path": "ui_preview_14.png", "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage14" },
+  { "path": "ui_preview_15.png", "x": 0, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPreviewImage15" },
+  
+  { "path": "ui_pickup_vehicle.png", "x": 2, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPickupFromTrack" },
+  { "path": "ui_putdown_vehicle.png", "x": 2, "y": 2, "zoomOffset": 0, "flags": 5, "name": "uiPlaceOnTrack" },
+  
+  { "path": "straight_ballast_ne.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "straight0BallastNE" },
+  { "path": "straight_ballast_se.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "straight0BallastSE" },
+  { "path": "straight_sleeper_ne.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "straight0SleeperNE" },
+  { "path": "straight_sleeper_se.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "straight0SleeperSE" },
+  { "path": "straight_rail_ne.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "straight0RailNE" },
+  { "path": "straight_rail_se.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "straight0RailSE" },
+  
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 23,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": 23,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 26,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 16,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": 1,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -12,
+    "y": 24,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": 28,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -4,
+    "y": 28,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": 20,
+    "y": 12,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -11,
+    "y": 5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 26,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -28,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 12,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -2,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -4,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -6,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall0RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall1RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 25,
+    "y": 12,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall2RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -7,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmall3RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp0NE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp1NE"
+  },
+  {
+    "path": "null.png",
+    "x": -12,
+    "y": 14,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp2NE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": -2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp3NE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp0SE"
+  },
+  {
+    "path": "null.png",
+    "x": 7,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp1SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp2SE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": -8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp3SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp0SW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp1SW"
+  },
+  {
+    "path": "null.png",
+    "x": -12,
+    "y": -8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp2SW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp3SW"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": -8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp0NW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp1NW"
+  },
+  {
+    "path": "null.png",
+    "x": 16,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp2NW"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeUp3NW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown0NE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown1NE"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 14,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown2NE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown3NE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown0SE"
+  },
+  {
+    "path": "null.png",
+    "x": 23,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown1SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown2SE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown3SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown0SW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown1SW"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": -8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown2SW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown3SW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": -8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown0NW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown1NW"
+  },
+  {
+    "path": "null.png",
+    "x": 16,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown2NW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSlopeDown3NW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": -6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp0NE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp1NE"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 18,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp2NE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp3NE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp0SE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp1SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp2SE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp3SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp0SW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp1SW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp2SW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp3SW"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": -16,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp0NW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp1NW"
+  },
+  {
+    "path": "null.png",
+    "x": 16,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp2NW"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeUp3NW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown0NE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown1NE"
+  },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 18,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown2NE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": -6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown3NE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown0SE"
+  },
+  {
+    "path": "null.png",
+    "x": 23,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown1SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown2SE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -16,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown3SE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown0SW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown1SW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown2SW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown3SW"
+  },
+  {
+    "path": "null.png",
+    "x": -12,
+    "y": -1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown0NW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown1NW"
+  },
+  {
+    "path": "null.png",
+    "x": 16,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown2NW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveSmallSteepSlopeDown3NW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 16,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 16,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": -1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -28,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": -1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 3,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 2,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": 18,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -22,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -22,
+    "y": 18,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -28,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": 7,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -29,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -22,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 17,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -13,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": 8,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": 7,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 19,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 19,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": 11,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -28,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 19,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -11,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve0RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 13,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve1RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -21,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve2RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 12,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve3RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -13,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurve4RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp0NE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp1NE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp0SE"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp1SE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp0SW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp1SW"
+  },
+  {
+    "path": "null.png",
+    "x": -24,
+    "y": -5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp0NW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": -13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "straightSlopeUp1NW"
+  },
+  { "path": "steep_slope_up_ne.png", "x": -24, "y": -13, "zoomOffset": 0, "flags": 5, "name": "straightSteepSlopeUp0NE" },
+  { "path": "steep_slope_up_se.png", "x": -26, "y": 1, "zoomOffset": 0, "flags": 5, "name": "straightSteepSlopeUp0SE" },
+  { "path": "steep_slope_up_sw.png", "x": -28, "y": 1, "zoomOffset": 0, "flags": 5, "name": "straightSteepSlopeUp0SW" },
+  { "path": "steep_slope_up_nw.png", "x": -24, "y": -13, "zoomOffset": 0, "flags": 5, "name": "straightSteepSlopeUp0NW" },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -22,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 24,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": 5,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 16,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -21,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 20,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": 3,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 16,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -7,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -22,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 5,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": 19,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 24,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": -21,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 12,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -15,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 27,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -21,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": 15,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -28,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -11,
+    "y": 21,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -3,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": 1,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -3,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": 26,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -9,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -21,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -28,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": 11,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -11,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -21,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 21,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": 25,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -9,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 6,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -31,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -6,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 27,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": 1,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -17,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -4,
+    "y": 28,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -23,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": 21,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -6,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -26,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -10,
+    "y": 22,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge0RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge1RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 12,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge2RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge3RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "rightCurveLarge4RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -20,
+    "y": 3,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -25,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": 19,
+    "y": 12,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -7,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -19,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 2,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -18,
+    "y": 22,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": 31,
+    "y": 30,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -16,
+    "y": 4,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -2,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -27,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": 30,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -22,
+    "y": 7,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge0RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -30,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge1RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge2RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": -6,
+    "y": 28,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge3RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "leftCurveLarge4RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 0,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 24,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -12,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1BallastNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 8,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0BallastSW"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 18,
+    "y": 9,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1BallastSE"
+  },
+  {
+    "path": "null.png",
+    "x": -14,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0BallastNW"
+  },
+  {
+    "path": "null.png",
+    "x": 1,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -7,
+    "y": 26,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -6,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1SleeperNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 10,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0SleeperSW"
+  },
+  {
+    "path": "null.png",
+    "x": -9,
+    "y": 15,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": 23,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1SleeperSE"
+  },
+  {
+    "path": "null.png",
+    "x": -9,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0SleeperNW"
+  },
+  {
+    "path": "null.png",
+    "x": -1,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -8,
+    "y": 27,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -2,
+    "y": 0,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1RailNE"
+  },
+  {
+    "path": "null.png",
+    "x": -32,
+    "y": 11,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0RailSW"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -29,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1RailNW"
+  },
+  {
+    "path": "null.png",
+    "x": 27,
+    "y": 13,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal1RailSE"
+  },
+  {
+    "path": "null.png",
+    "x": -5,
+    "y": 1,
+    "zoomOffset": 0,
+    "flags": 5,
+    "name": "diagonal0RailNW"
+  },
+  
+  
+  
+  { "path":  "s_bend_left_ballast_ne_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0BallastNE" },
+  { "path":  "s_bend_left_ballast_ne_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1BallastNE" },
+  { "path":  "s_bend_left_ballast_ne_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1BallastSW" },
+  { "path":  "s_bend_left_ballast_ne_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0BallastSW" },
+  { "path":  "s_bend_left_ballast_se_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0BallastSE" },
+  { "path":  "s_bend_left_ballast_se_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1BallastSE" },
+  { "path":  "s_bend_left_ballast_se_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1BallastNW" },
+  { "path":  "s_bend_left_ballast_se_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0BallastNW" },
+  { "path": "s_bend_right_ballast_ne_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0BallastNE" },
+  { "path": "s_bend_right_ballast_ne_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1BallastNE" },
+  { "path": "s_bend_right_ballast_ne_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1BallastSW" },
+  { "path": "s_bend_right_ballast_ne_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0BallastSW" },
+  { "path": "s_bend_right_ballast_se_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0BallastSE" },
+  { "path": "s_bend_right_ballast_se_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1BallastSE" },
+  { "path": "s_bend_right_ballast_se_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1BallastNW" },
+  { "path": "s_bend_right_ballast_se_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0BallastNW" },
+  
+  { "path":  "s_bend_left_sleepers_ne_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0SleeperNE" },
+  { "path":  "s_bend_left_sleepers_ne_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1SleeperNE" },
+  { "path":  "s_bend_left_sleepers_ne_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1SleeperSW" },
+  { "path":  "s_bend_left_sleepers_ne_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0SleeperSW" },
+  { "path":  "s_bend_left_sleepers_se_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0SleeperSE" },
+  { "path":  "s_bend_left_sleepers_se_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1SleeperSE" },
+  { "path":  "s_bend_left_sleepers_se_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1SleeperNW" },
+  { "path":  "s_bend_left_sleepers_se_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0SleeperNW" },
+  { "path": "s_bend_right_sleepers_ne_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0SleeperNE" },
+  { "path": "s_bend_right_sleepers_ne_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1SleeperNE" },
+  { "path": "s_bend_right_sleepers_ne_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1SleeperSW" },
+  { "path": "s_bend_right_sleepers_ne_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0SleeperSW" },
+  { "path": "s_bend_right_sleepers_se_0.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0SleeperSE" },
+  { "path": "s_bend_right_sleepers_se_1.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1SleeperSE" },
+  { "path": "s_bend_right_sleepers_se_2.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight1SleeperNW" },
+  { "path": "s_bend_right_sleepers_se_3.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "sBendRight0SleeperNW" },
+  
+  { "path":  "s_bend_left_rail_ne_0.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0RailNE" },
+  { "path":  "s_bend_left_rail_ne_1.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1RailNE" },
+  { "path":  "s_bend_left_rail_ne_2.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1RailSW" },
+  { "path":  "s_bend_left_rail_ne_3.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0RailSW" },
+  { "path":  "s_bend_left_rail_se_0.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0RailSE" },
+  { "path":  "s_bend_left_rail_se_1.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1RailSE" },
+  { "path":  "s_bend_left_rail_se_2.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft1RailNW" },
+  { "path":  "s_bend_left_rail_se_3.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name":  "sBendLeft0RailNW" },
+  { "path": "s_bend_right_rail_ne_0.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight0RailNE" },
+  { "path": "s_bend_right_rail_ne_1.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight1RailNE" },
+  { "path": "s_bend_right_rail_ne_2.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight1RailSW" },
+  { "path": "s_bend_right_rail_ne_3.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight0RailSW" },
+  { "path": "s_bend_right_rail_se_0.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight0RailSE" },
+  { "path": "s_bend_right_rail_se_1.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight1RailSE" },
+  { "path": "s_bend_right_rail_se_2.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight1RailNW" },
+  { "path": "s_bend_right_rail_se_3.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "sBendRight0RailNW" },
+  
+  
+  { "path": "very_small_curve_ballast_ne.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0BallastNE" },
+  { "path": "very_small_curve_ballast_se.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0BallastSE" },
+  { "path": "very_small_curve_ballast_sw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0BallastSW" },
+  { "path": "very_small_curve_ballast_nw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0BallastNW" },
+  { "path": "very_small_curve_sleepers_ne.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0SleeperNE" },
+  { "path": "very_small_curve_sleepers_se.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0SleeperSE" },
+  { "path": "very_small_curve_sleepers_sw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0SleeperSW" },
+  { "path": "very_small_curve_sleepers_nw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0SleeperNW" },
+  { "path": "very_small_curve_rails_ne.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0RailNE" },
+  { "path": "very_small_curve_rails_se.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0RailSE" },
+  { "path": "very_small_curve_rails_sw.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0RailSW" },
+  { "path": "very_small_curve_rails_nw.png", "x": -33, "y": -2, "zoomOffset": 0, "flags": 5, "name": "rightCurveVerySmall0RailNW" },
+  
+  
+  { "path": "straight_leftside_ballast_ne.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideBallastNE" },
+  { "path": "straight_leftside_ballast_se.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideBallastSE" },
+  { "path": "straight_leftside_ballast_sw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideBallastSW" },
+  { "path": "straight_leftside_ballast_nw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideBallastNW" },
+  { "path": "straight_leftside_sleepers_ne.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSleeperNE" },
+  { "path": "straight_leftside_sleepers_se.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSleeperSE" },
+  { "path": "straight_leftside_sleepers_sw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSleeperSW" },
+  { "path": "straight_leftside_sleepers_nw.png", "x": -33, "y": -1, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSleeperNW" },
+  { "path": "straight_rail_ne.png", "x": -41, "y": -6, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideRailNE" },
+  { "path": "straight_rail_se.png", "x": -25, "y": -6, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideRailSE" },
+  { "path": "straight_rail_ne.png", "x": -25, "y": 2, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideRailSW" },
+  { "path": "straight_rail_se.png", "x": -41, "y": 2, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideRailNW" },
+  
+  
+  {"path": "s_bend_rightside_to_leftside_ballast_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendRightSideToLeftSideBallastNE"},
+  {"path": "s_bend_rightside_to_leftside_ballast_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendRightSideToLeftSideBallastSE"},
+  {"path": "s_bend_leftside_to_rightside_ballast_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendLeftSideToRightSideBallastNE"},
+  {"path": "s_bend_leftside_to_rightside_ballast_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendLeftSideToRightSideBallastSE"},
+  {"path": "s_bend_rightside_to_leftside_sleepers_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendRightSideToLeftSideSleeperNE"},
+  {"path": "s_bend_rightside_to_leftside_sleepers_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendRightSideToLeftSideSleeperSE"},
+  {"path": "s_bend_leftside_to_rightside_sleepers_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendLeftSideToRightSideSleeperNE"},
+  {"path": "s_bend_leftside_to_rightside_sleepers_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendLeftSideToRightSideSleeperSE"},
+  {"path": "s_bend_right_side_to_left_side_rail_ne.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendRightSideToLeftSideRailNE"},
+  {"path": "s_bend_right_side_to_left_side_rail_nw.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendRightSideToLeftSideRailSE"},
+  {"path": "s_bend_left_side_to_right_side_rail_ne.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendLeftSideToRightSideRailNE"},
+  {"path": "s_bend_left_side_to_right_side_rail_nw.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendLeftSideToRightSideRailSE"},
+
+  {"path":  "s_bend_single_to_leftside_ballast_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideBallastNE"},
+  {"path":  "s_bend_single_to_leftside_ballast_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideBallastSE"},
+  {"path":  "s_bend_single_to_leftside_ballast_sw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideBallastSW"},
+  {"path":  "s_bend_single_to_leftside_ballast_nw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideBallastNW"},
+  {"path": "s_bend_single_to_rightside_ballast_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideBallastNE"},
+  {"path": "s_bend_single_to_rightside_ballast_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideBallastSE"},
+  {"path": "s_bend_single_to_rightside_ballast_sw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideBallastSW"},
+  {"path": "s_bend_single_to_rightside_ballast_nw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideBallastNW"},
+  {"path":  "s_bend_single_to_leftside_sleepers_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideSleeperNE"},
+  {"path":  "s_bend_single_to_leftside_sleepers_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideSleeperSE"},
+  {"path":  "s_bend_single_to_leftside_sleepers_sw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideSleeperSW"},
+  {"path":  "s_bend_single_to_leftside_sleepers_nw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideSleeperNW"},
+  {"path": "s_bend_single_to_rightside_sleepers_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSidSleeperNE"},
+  {"path": "s_bend_single_to_rightside_sleepers_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSidSleeperSE"},
+  {"path": "s_bend_single_to_rightside_sleepers_sw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSidSleeperSW"},
+  {"path": "s_bend_single_to_rightside_sleepers_nw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSidSleeperNW"},
+  {"path":  "s_bend_single_to_left_side_rail_ne.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideRailNE"},
+  {"path":  "s_bend_single_to_left_side_rail_se.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideRailSE"},
+  {"path":  "s_bend_single_to_left_side_rail_sw.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideRailSW"},
+  {"path":  "s_bend_single_to_left_side_rail_nw.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToLeftSideRailNW"},
+  {"path": "s_bend_single_to_right_side_rail_ne.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideRailNE"},
+  {"path": "s_bend_single_to_right_side_rail_se.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideRailSE"},
+  {"path": "s_bend_single_to_right_side_rail_sw.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideRailSW"},
+  {"path": "s_bend_single_to_right_side_rail_nw.png","x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kSBendSingleToRightSideRailNW"},
+  
+  
+  {"path": "right_very_small_outer_curve_ballast_ne.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0BallastNE"},
+  {"path": "right_very_small_outer_curve_ballast_se.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0BallastSE"},
+  {"path": "right_very_small_outer_curve_ballast_sw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0BallastSW"},
+  {"path": "right_very_small_outer_curve_ballast_nw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0BallastNW"},
+  {"path": "right_very_small_outer_curve_sleepers_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0SleeperNE"},
+  {"path": "right_very_small_outer_curve_sleepers_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0SleeperSE"},
+  {"path": "right_very_small_outer_curve_sleepers_sw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0SleeperSW"},
+  {"path": "right_very_small_outer_curve_sleepers_nw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0SleeperNW"},
+  {"path": "right_very_small_outer_curve_rail_ne.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0RailNE"},
+  {"path": "right_very_small_outer_curve_rail_se.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0RailSE"},
+  {"path": "right_very_small_outer_curve_rail_sw.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0RailSW"},
+  {"path": "right_very_small_outer_curve_rail_nw.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallOuter0RailNW"},
+  
+  {"path": "right_very_small_inner_curve_ballast_ne.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0BallastNE"},
+  {"path": "right_very_small_inner_curve_ballast_se.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0BallastSE"},
+  {"path": "right_very_small_inner_curve_ballast_sw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0BallastSW"},
+  {"path": "right_very_small_inner_curve_ballast_nw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0BallastNW"},
+  {"path": "right_very_small_inner_curve_sleepers_ne.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0SleeperNE"},
+  {"path": "right_very_small_inner_curve_sleepers_se.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0SleeperSE"},
+  {"path": "right_very_small_inner_curve_sleepers_sw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0SleeperSW"},
+  {"path": "right_very_small_inner_curve_sleepers_nw.png","x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0SleeperNW"},
+  {"path": "right_very_small_inner_curve_rail_ne.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0RailNE"},
+  {"path": "right_very_small_inner_curve_rail_se.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0RailSE"},
+  {"path": "right_very_small_inner_curve_rail_sw.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0RailSW"},
+  {"path": "right_very_small_inner_curve_rail_nw.png",    "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kRightCurveVerySmallInner0RailNW"},
+  
+  
+  {"path": "turnaround_ballast_ne.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0BallastNE"},
+  {"path": "turnaround_ballast_se.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0BallastSE"},
+  {"path": "turnaround_ballast_sw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0BallastSW"},
+  {"path": "turnaround_ballast_nw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0BallastNW"},
+  {"path": "turnaround_sleepers_ne.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0SleeperNE"},
+  {"path": "turnaround_sleepers_se.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0SleeperSE"},
+  {"path": "turnaround_sleepers_sw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0SleeperSW"},
+  {"path": "turnaround_sleepers_nw.png", "x": -33,"y": -1,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0SleeperNW"},
+  {"path": "turnaround_rails_ne.png", "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0RailNE"},
+  {"path": "turnaround_rails_se.png", "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0RailSE"},
+  {"path": "turnaround_rails_sw.png", "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0RailSW"},
+  {"path": "turnaround_rails_nw.png", "x": -33,"y": -2,"zoomOffset": 0,"flags": 5,"name": "kTurnaround0RailNW"},
+  
+  
+  { "path": "onesided_steep_slope_up_ne.png", "x": -30, "y": -15, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSteepSlopeUp0NE" },
+  { "path": "onesided_steep_slope_up_se.png", "x": -15, "y": 0, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSteepSlopeUp0SE" },
+  { "path": "onesided_steep_slope_up_sw.png", "x": -12, "y": 8, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSteepSlopeUp0SW" },
+  { "path": "onesided_steep_slope_up_nw.png", "x": -30, "y": -7, "zoomOffset": 0, "flags": 5, "name": "kStraightLeftSideSteepSlopeUp0NW" },
+  { "path": "onesided_steep_slope_up_ne.png", "x": -14, "y": -8, "zoomOffset": 0, "flags": 5, "name": "kStraightRightSideSteepSlopeUp0NE" },
+  { "path": "onesided_steep_slope_up_se.png", "x": -31, "y": 8, "zoomOffset": 0, "flags": 5, "name": "kStraightRightSideSteepSlopeUp0SE" },
+  { "path": "onesided_steep_slope_up_sw.png", "x": -28, "y": 1, "zoomOffset": 0, "flags": 5, "name": "kStraightRightSideSteepSlopeUp0SW" },
+  { "path": "onesided_steep_slope_up_nw.png", "x": -14, "y": -15, "zoomOffset": 0, "flags": 5, "name": "kStraightRightSideSteepSlopeUp0NW" }
+]
