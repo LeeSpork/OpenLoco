@@ -1,7 +1,23 @@
-26.08+ (???)
+26.09+ (???)
+------------------------------------------------------------------------
+- Change: [#4033] Objects marked with source OpenLoco (OpenGraphics) are no longer exported in scenario or save files.
+- Change: [#4041] Vehicle colours are now reset to the target company's when using the company takeover cheat.
+- Change: [#4041] Invisible 'planned' AI company track is no longer inherited when using the company takeover cheat.
+- Change: [#4041] The original AI company is now shut down after using the company takeover cheat.
+- Fix: [#2879] Crash when starting the game with an empty openloco.yaml file.
+- Fix: [#4027] Crash when starting the game with malformed YAML schema.
+- Fix: [#4037] Cannot delete road stations acquired with the 'acquire all company assets' cheat.
+- Fix: [#4061] Creating industries does not select a random colour (vanilla bug).
+- Fix: [#4063] AI fails to create road at some rotations (vanilla bug).
+- Fix: [#4063] Road path finding uses incorrect values for road length (vanilla bug).
+- Fix: [#4063] Incorrect vehicle speed calculation (vanilla bug).
+- Fix: [#4063] Town expansion does not raise/lower certain land corners (vanilla bug).
+
+26.09 (2026-09-18)
 ------------------------------------------------------------------------
 - Feature: [#3942] Added a tooltip to show the drag dimensions when using area selection tools.
 - Feature: [#3978] Improved automatic detection of Locomotion installs on Linux.
+- Feature: [#4023] Add OpenGraphics North American Expansion vehicles! And vanilla replacements for various bus', American horn sound, American region, overhead wires, train station 3! And updated OG_PCARUS2, OG_ALOCENT, OG_DASH7 OG_SD70MAC, OG_E8.
 - Change: [#3867] Repeated presses of the build tracks and build roads keyboard shortcuts now cycles track/road types.
 - Change: [#3967] English localisations now use typographically correct curved single quotes.
 - Change: [#3973] Game already running error message now says "OpenLoco" instead of "Chris Sawyer's Locomotion".
