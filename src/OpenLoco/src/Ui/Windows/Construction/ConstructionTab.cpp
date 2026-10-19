@@ -1272,7 +1272,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
             rotation &= 3;
         }
 
-        return TrackPieceId{ static_cast<uint8_t>(id), rotation };
+        return TrackPieceId{ enumValue(id), rotation };
     }
 
     // 0x004A04F8
@@ -1645,7 +1645,7 @@ namespace OpenLoco::Ui::Windows::Construction::Construction
             rotation &= 3;
         }
 
-        return TrackPieceId{ static_cast<uint8_t>(id), rotation };
+        return TrackPieceId{ enumValue(id), rotation };
     }
 
     // 0x0049DAA5
